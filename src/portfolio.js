@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Alexa King",
+  title: "Hi, I'm Alexa",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A sexy Full Stack Software Developer 🚀 designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1oi5gNG47D_j25qEYAXsLxoeg7G4Xdedm/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/alexaking",
+  // linkedin: "https://www.linkedin.com/in/kingjalexa/",
+  gmail: "kingjalexa@gmail.com",
   // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  facebook: "https://www.facebook.com/kingjalexa/",
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/divalarevolution/',
+  twitter: 'https://twitter.com/kingjalexa/',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I make software that connects people to themselves and their communities.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Proficient: Javascript, HTML/CSS, Express, React, Redux, Github, Visual Studio Code, npm"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Knowledgeable: Node.js, Heroku, Travis CI, Jasmine, Postico, PostgreSQL, Chrome Dev Tools, React Native"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Familiar: Heroku, Travis CI, Jasmine"
     )
   ],
 
@@ -77,10 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,25 +100,25 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Grace Hopper Program",
+      logo: require("./assets/images/gracehopper.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2019 - January 2020",
+      desc: "Immersive project work in full-stack web development",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "CUNY Queens College",
+      logo: require("./assets/images/queenscollege.png"),
+      subHeader: "Bachelor of Arts in English Literature",
+      duration: "September 2005 - April 2010",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+        "Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -127,7 +127,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
@@ -151,12 +151,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Deputy Digital Director",
+      company: "Democratic Party of Virginia",
+      companylogo: require("./assets/images/vadems.png"),
+      date: "June 2020 – November 2020",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: [
         "Custom building applications",
         "Coaching",
@@ -165,20 +165,20 @@ const workExperiences = {
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Political Technology Specialist",
+      company: "DigiDems",
+      companylogo: require("./assets/images/digidems.png"),
+      date: "June 2020 - November 2020",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
+      role: "Career Counselor",
+      company: "LevelUp! Workforce Development",
+      companylogo: require("./assets/images/levelup2.png"),
       date: "November 2018 – July 2019",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
   ]
 };
@@ -188,7 +188,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "alexaking", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -310,7 +310,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +349,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(347) 283-9052",
+  email_address: "kingjalexa@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "alexaking", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

@@ -49,11 +49,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexaking/portfolio-react-cp.git"
+    "url": "git+https://github.com/alexaking/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexaking/portfolio-react-cp/issues"
+    "url": "https://github.com/alexaking/portfolio/issues"
   }
 }

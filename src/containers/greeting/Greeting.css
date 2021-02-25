@@ -35,12 +35,15 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
-  color: black !important;
+  font-weight: 450;
+  color: #78006E !important;
+  /* color:magenta; */
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  font-weight: 200;
 }
 
 .greeting-image-div > img {

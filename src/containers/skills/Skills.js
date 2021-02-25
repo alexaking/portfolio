@@ -17,14 +17,16 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
+          <img src={require("../../assets/images/QRCode 2-02.png")} ></img>
+          <p align="center">Try my mobile app, DiceRoller, on Expo!<br></br><br></br><a href="expo.io/@alexaking/projects/DiceRoller">expo.io/@alexaking/projects/DiceRoller</a></p>
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
                 alt="Man Working"
                 src={require("../../assets/images/developerActivity.svg")}
               ></img>
-            )}
+            )} */}
           </div>
         </Fade>
         <Fade right duration={1000}>

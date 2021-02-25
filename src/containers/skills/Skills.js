@@ -18,7 +18,7 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
           <img src={require("../../assets/images/QRCode 2-02.png")} ></img>
-          <p align="center">Try my mobile app, DiceRoller, on Expo!<br></br><br></br><a href="expo.io/@alexaking/projects/DiceRoller">expo.io/@alexaking/projects/DiceRoller</a></p>
+          <p align="center">Try my mobile app, DiceRoller, on Expo!<br></br><br></br><a href="https://expo.io/@alexaking/projects/DiceRoller" target="_blank">expo.io/@alexaking/projects/DiceRoller</a></p>
             {/* {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (

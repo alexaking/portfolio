@@ -12,7 +12,7 @@ const greeting = {
   username: "Alexa King",
   title: "Hi, I'm Alexa",
   subTitle: emoji(
-    "A sexy Full Stack Software Developer 🚀 designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A Full Stack Software Developer 🚀 designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and React Native."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1oi5gNG47D_j25qEYAXsLxoeg7G4Xdedm/view?usp=sharing",
@@ -109,7 +109,7 @@ const educationInfo = {
       duration: "September 2019 - January 2020",
       desc: "Immersive project work in full-stack web development",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked on a four-person development team to create Mindcraft, a meditation app and journal build with React Native."
       ]
     },
     {
@@ -117,9 +117,9 @@ const educationInfo = {
       logo: require("./assets/images/queenscollege.png"),
       subHeader: "Bachelor of Arts in English Literature",
       duration: "September 2005 - April 2010",
-      desc:
-        "Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // desc:
+      //   "Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -156,13 +156,7 @@ const workExperiences = {
       companylogo: require("./assets/images/vadems.png"),
       date: "June 2020 – November 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
-      ]
+        "Volunteer organizing, cybersecurity training and digital outreach",
     },
     {
       role: "Political Technology Specialist",
@@ -170,7 +164,7 @@ const workExperiences = {
       companylogo: require("./assets/images/digidems.png"),
       date: "June 2020 - November 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Used political organizing software such as Civis and NGPVAN to create digital voter outreach tools for statewide organizers"
     },
     {
       role: "Career Counselor",
@@ -178,7 +172,7 @@ const workExperiences = {
       companylogo: require("./assets/images/levelup2.png"),
       date: "November 2018 – July 2019",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Career Coaching, Workforce readiness training, resume and interview skills workshops"
     }
   ]
 };

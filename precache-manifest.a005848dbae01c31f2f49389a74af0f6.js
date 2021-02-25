@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ae295cde8f3cfc09545c2a0bbf5e842",
+    "revision": "04d59e74f3f0faff0d08906c8bd9568a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "07783df593ecbec28195",
+    "revision": "9c1172fcc5421d09bd6f",
     "url": "/portfolio/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "70458e153958527f9449",
+    "revision": "8e9fcc5a743313290e68",
     "url": "/portfolio/static/css/4.ea3dbbf2.chunk.css"
   },
   {
-    "revision": "e1338cb881c6d309edea",
-    "url": "/portfolio/static/css/main.4cf4b044.chunk.css"
+    "revision": "c9cca9e1392569a86861",
+    "url": "/portfolio/static/css/main.fb5b0910.chunk.css"
   },
   {
-    "revision": "0a2030792eacc53def11",
-    "url": "/portfolio/static/js/2.7f284e5a.chunk.js"
+    "revision": "36382770dfed43103f81",
+    "url": "/portfolio/static/js/2.89b95dbd.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/portfolio/static/js/2.7f284e5a.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.89b95dbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07783df593ecbec28195",
-    "url": "/portfolio/static/js/3.9a33cc03.chunk.js"
+    "revision": "9c1172fcc5421d09bd6f",
+    "url": "/portfolio/static/js/3.bcad8c3c.chunk.js"
   },
   {
-    "revision": "70458e153958527f9449",
-    "url": "/portfolio/static/js/4.d34bf185.chunk.js"
+    "revision": "8e9fcc5a743313290e68",
+    "url": "/portfolio/static/js/4.d71ee8e2.chunk.js"
   },
   {
-    "revision": "e1338cb881c6d309edea",
-    "url": "/portfolio/static/js/main.99ed7cd6.chunk.js"
+    "revision": "c9cca9e1392569a86861",
+    "url": "/portfolio/static/js/main.98401c93.chunk.js"
   },
   {
-    "revision": "96109bab3259c73333c8",
-    "url": "/portfolio/static/js/runtime-main.847b3284.js"
+    "revision": "70d16d82a0e5cb4cb0cf",
+    "url": "/portfolio/static/js/runtime-main.3207a0d6.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "0b7b9dcf3cf4f27a9d161b0704c5d65f",
+    "url": "/portfolio/static/media/QRCode 2-02.0b7b9dcf.png"
   },
   {
     "revision": "48c6335be5bacb7779b644b7dfbbb453",
@@ -62,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/portfolio/static/media/contactMailDark.51cf7192.svg"
-  },
-  {
-    "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/portfolio/static/media/developerActivity.59389695.svg"
   },
   {
     "revision": "e79c639294c805688be731921368c8f8",
